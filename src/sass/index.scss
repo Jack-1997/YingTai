@@ -1,0 +1,483 @@
+@import 'var';
+@import 'reset';
+@import 'head';
+@import '../lib/jquery.lxCarousel/jquery.lxCarousel';
+@import 'foot';
+.yt-wrap{
+    	width: 1190px;
+    	margin: 0 auto;
+		// margin-top:30px;
+    }
+.lunx{margin-top:30px;}
+
+#bd{
+	#banner{
+		width:100%;
+		height:470px;
+		// background-color:yellow;
+		// background: url(./img/banner01bg.jpg) center center no-repeat;
+		
+		background-size: contain;
+		#lbt{
+			margin:0 auto;
+			width:1190px;
+			height:470px;
+			
+		}
+	}
+	.brand_contentRec{
+		padding-top: 30px;
+	    height: 325px;
+	    margin-bottom: 25px;
+	    overflow: hidden;
+	    .cf{zoom:1}
+	    cf:after {
+		    content: ".";
+		    display: block;
+		    height: 0;
+		    clear: both;
+		    visibility: hidden;
+		}
+	    .brand_content{
+	    	width: 910px;
+		    float: left;
+		    overflow: hidden;
+		    ul{overflow: hidden;}
+		    .eva-switchable-triggers{
+		    	width: 910px;
+		    	li{
+		    		float: left;
+				    width: 303px;
+				    height: 47px;
+				    border-bottom: 5px solid #333333;
+				    position: relative;
+				    a{
+				    	display: block;
+					    width: 303px;
+					    height: 47px;
+					    text-align: center;
+					    font-size: 16px;
+					    line-height: 47px;
+					    color: #000;
+				    }
+				    li:hover{
+
+				    }
+		    	}
+		    	.eva-switchable-active{
+		    		border-bottom-color: #e5004f;
+		    		a{font-weight: bold;}
+		    		span{
+		    			    position: absolute;
+						    width: 7px;
+						    height: 4px;
+						    left: 143px;
+						    top: 43px;
+						    background: url(./img/yt_ico.png) 0 -16px no-repeat;
+						    overflow: hidden;
+		    		}
+		    	}
+		    	.last_w{width:304px;}
+		    }
+		    .eva-switchable-panels{
+		    	.pr_list_t{
+		    		    padding-top: 10px;
+					    width: 940px;
+					    height: 262px;
+					    overflow: hidden;
+		    	}
+
+
+			    .border_animation{
+			    	border: 1px solid #eee;
+				    width: 220px;
+				    height: 260px;
+				    float: left;
+				    margin-right: 7px;
+				    position: relative;
+				    border_top{position: absolute;
+							    height: 1px; 
+							    width: 0; 
+							    font-size: 0;
+							    background: #666666;
+							    top: 0; 
+							    left: 0;
+							    transition: all 0.5s ease-out;
+			    	}
+			    	border_right{
+			    		    position: absolute;
+						    height: 0px;
+						    width: 1px;
+						    font-size: 0;
+						    background: #666666;
+						    bottom: 0;
+						    right: 0;
+						    transition: all 0.5s ease-out;
+			    	}
+			    	border_boottom{
+			    		position: absolute;
+					    height: 1px;
+					    width: 0px;
+					    font-size: 0;
+					    background: #666666;
+					    right: 0;
+					    bottom: 0;
+					    transition: all 0.5s ease-out;
+			    	}
+			    	border_left{
+			    		position: absolute;
+					    height: 0px;
+					    width: 1px;
+					    font-size: 0;
+					    background: #666666;
+					    left: 0;
+					    top: 0;
+					    transition: all 0.5s ease-out;
+					}
+			    	}
+			    .pro_list{
+			    	// display: none;
+			    	a{    margin: 0;
+    					text-decoration: underline;}
+			    	li{
+			    		float: left;
+					    width: 220px;
+					    height: 256px;
+					    margin-right: 9px;
+					    p{
+					    	padding-left: 12px;
+						    line-height: 20px;
+						    width: 198px;
+						    height: 20px;
+						    white-space: nowrap;
+						    overflow: hidden;
+						    text-overflow: ellipsis;
+						    .yt_pr_c {
+							    font-size: 14px;
+							    color: #e5004f;
+							}
+							.font_yahei {
+							    font-family: "\5fae\8f6f\96c5\9ed1";
+							}
+							.yt_pr_s {
+							    font-size: 11px;
+							    color: #909090;
+							    margin-left: 10px;
+							}
+					    }
+					    .yt_pr_img{
+					    	width: 220px;
+    						height: 210px;
+    						a{
+    							display: block;
+							    width: 220px;
+							    height: 210px;
+							    text-align: center;
+    						}
+					    }
+
+
+			    	}
+			    }
+		    }
+	    }
+	   	.yt_notice {
+		    float: right;
+		    width: 270px;
+		    height: 324px;
+		    overflow: hidden;
+		    .noctice-tips{
+		    	overflow: visible;
+			    position: relative;
+			    z-index: 1;
+			    height: 24px;
+			}
+		 }
+	}
+
+	.yt_floor_zgtk{
+	    margin-top: 36px;
+	    height: 624px;
+	    overflow: hidden;
+	    .floor_title {
+		    width: 1190px;
+		    height: 46px;
+		    .tit_recommend {
+			    height: 36px;
+			    float: right;
+			}
+		    h6{
+		    	float: left;
+		    	width: 380px;
+			    height: 36px;
+			    text-indent: -9999em;
+			    margin-bottom: 10px;
+			    background: url(./img/floor_tk.png) center center no-repeat;
+		    }
+		}
+		.zgtk-content {
+		    border: 1px solid #eee;
+		    padding: 10px;
+		    width:1190px;
+		    height:577px;
+		    .floor_ad {
+			    float: left;
+			    width: 340px;
+			    height: 555px;
+			    overflow: hidden;
+			}
+			.floor_tk_content{
+				float: right;
+			    width: 815px;
+			    font-family: "\5fae\8f6f\96c5\9ed1";
+				.tk_nav{
+					border-bottom: 3px solid #333;
+				    position: relative;
+				    height: 35px;
+					.eva-switchable-triggers {
+					    position: absolute;
+					    top: 0px;
+					    left: 0px;
+					    .eva-switchable-active{
+						    	a{color: #414141;font-weight: bold;}
+						    	span {
+							    background: url(./img/yt_ico.png) no-repeat scroll 0 -16px rgba(0,0,0,0);
+							    height: 4px;
+							    left: 51px;
+							    overflow: hidden;
+							    position: absolute;
+							    top: 31px;
+							    width: 7px;
+							}
+						    }
+					    li{
+					    	float: left;
+						    width: 102px;
+						    height: 35px;
+						    border-bottom: 3px solid #333;
+						    text-align: center;
+						    line-height: 35px;
+						    color: #414141;
+						    position: relative;
+						    font-size: 14px;
+						}
+
+
+					}
+				}
+				.eva-switchable-panels {
+				    height: 517px;
+				    float: none;
+				    overflow: hidden;
+				    width:910px;
+				    .gl{
+					    margin-top: 4px;
+					    margin-right: 5px;
+					    display: block;
+					    overflow: hidden;
+					    float: left;
+					}
+					.pro_list_xp{
+						li{
+							width: 198px;
+						    overflow: hidden;
+						    border: 1px solid #eee;
+						    float: left;
+						    margin-right: 5px;
+						    margin-bottom: 5px;
+						    position: relative;
+						 	 .pro_list_xp_img {
+							    width: 198px;
+							    height: 200px;
+							    overflow: hidden;
+							}
+							.pro_list_xp_content {
+							    background-color: #f8f8f8;
+							    padding: 5px;
+							    p {position: relative;}
+							    .pro_list_xp_title {
+								    height: 20px;
+								    overflow: hidden;
+								}
+								.yintai-price { color: #e5004f;}
+   								.shichang-price {
+								    text-decoration: line-through;
+								    position: absolute;
+								    top: 2px;
+								    right: 5px;
+								    color: #a7a7a7;
+								}
+
+
+    
+
+							}
+						}
+						 a {
+							    float: none;
+							    text-decoration: underline;
+							    color: #323232;
+							}
+						ul{margin-top:10px;}
+					}
+					
+				}
+			}		
+		}
+	}
+
+	.fashion{
+		width:260px;
+		height:36px;
+		text-indent:-9999em;
+		overflow:hidden;
+		margin-bottom:10px;
+		background:url(./img/floor_all.png) 0 0 no-repeat;
+	}
+
+	.yt_floor_mp, .yt_floor_wz, .yt_floor_nz, .yt_floor_xx, .yt_floor_xb, .yt_floor_hf, .yt_floor_hw, .yt_floor_ps, .yt_floor_ty{
+		height: 418px;
+	    margin-top: 36px;
+	    overflow: hidden;
+	}
+	.yt_floor_wz .fashion{background-position: 0 -46px;}
+	.yt_floor_nz .fashion{background-position: 0 -92px;}
+	.yt_floor_xx .fashion{background-position: 0 -138px;}
+	.yt_floor_xb .fashion{background-position: 0 -184px;}
+	.yt_floor_hf .fashion{background-position: 0 -230px;}
+	.yt_floor_hw .fashion{background-position: 0 -276px;}
+	.yt_floor_ps .fashion{background-position: 0 -322px;}
+	.yt_floor_ty .fashion{background-position: 0 -368px;}
+	.floor_nav {
+	    float: left;
+	    width: 228px;
+	    height: 370px;
+	    margin-right: 8px;
+	    border: 1px solid #eee;
+	    .floor_nav_category {
+		    font-size: 0;
+		    padding: 16px 0 0 8px;
+		    width: 220px;
+		    height: 172px;
+		    li{
+		    	float: left;
+			    width: 67px;
+			    height: 32px;
+			    margin: 0 5px 5px 0;
+			    display: inline;
+			    vertical-align: top;
+			    a{
+			    	display: block;
+				    border: 1px solid #eee;
+				    width: 65px;
+				    height: 32px;
+				    font-family: "\5fae\8f6f\96c5\9ed1";
+				    font-size: 14px;
+				    text-align: center;
+				    line-height: 32px;
+				    color: #fff;
+				    color: #666;
+				    overflow: hidden;
+			    }
+			    a:hover{
+			    	background: #e5004f;
+				    color: #fff;
+				    border: 1px solid #e5004f;
+			    }
+		    }
+		}
+	}
+	.floorbarndSlide {
+	    width: 200px;
+	    height: 140px;
+	    background: #f2f2f2;
+	    border-top: 1px dashed #969696;
+	    margin-left: 15px;
+	    position: relative;
+	    overflow: hidden;
+	    .scroller {
+		    width: 160px;
+		    height: 116px;
+		    margin: 0 auto;
+		    margin-top: 15px;
+		    overflow: hidden;
+		}
+	}
+	
+	.floor_banner {
+	    float: right;
+	    width: 552px;
+	    height: 372px;
+	    overflow: hidden;
+	}
+    .floor_banner_main{
+    	overflow: hidden;
+    	width: 560px;
+			 height: 380px;
+			 .product_block {
+		    float: left;
+		    width: 280px;
+		    height: 190px;
+		    .img_wrap{
+		    	width: 270px;
+			    height: 180px;
+			    border: 1px solid #eee;
+		    }
+		}
+    }
+
+    .yt_card {
+	    height: 167px;
+	    margin: 30px auto 0;
+	    border: 1px solid #eee;
+	    overflow: hidden;
+	    div {
+		    float: left;
+		    height: 165px;
+		    cursor: pointer;
+		    overflow: hidden;
+		     a {
+			    display: block;
+			    width: 390px;
+			    height: 165px;
+			    margin: 0 auto;
+			}
+		}
+	 	.public-one {
+		    width: 395px;
+		}
+		.public-two {
+		    width: 396px;
+		    border-left: 1px solid #eee;
+		    border-right: 1px solid #eee;
+		}
+		.public-san {
+		    width: 395px;
+		}
+	}
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

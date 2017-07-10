@@ -1,0 +1,106 @@
+
+#ft{
+	padding-top: 30px;
+    background-color: #fff;
+    width: 100%;
+    min-width: 1190px;
+	    .itips {
+	    width: 1188px;
+	    height: 88px;
+	    margin-bottom: 35px;
+	    border: 1px solid #eee;
+	    background-color: #f7f7f7;
+	    span {
+		    float: left;
+		    border-right: 1px solid #eee;
+		    font-family: "\5fae\8f6f\96c5\9ed1";
+		    strong{font-weight: 400;}
+		    b {
+			    font-weight: 400;
+			    color: #888;
+			}
+		}
+		.delivery {
+		    width: 186px;
+		    height: 65px;
+		    padding: 23px 0 0 100px;
+		    background: url(./img/footer-01.png) 52px -56px no-repeat;
+		}
+		.genuine {
+		    width: 182px;
+		    height: 65px;
+		    padding: 23px 0 0 104px;
+		    background: url(./img/footer-01.png) 52px -132px no-repeat;
+		}
+		.freight {
+		    width: 140px;
+		    border-right: none;
+		    height: 65px;
+		    padding: 23px 0 0 115px;
+		    background: url(./img/footer-01.png) 52px -203px no-repeat;
+		}
+		.service {
+		    width: 282px;
+		    height: 68px;
+		    padding: 20px 0 0 45px;
+		    strong {
+			    display: inline-block;
+			    padding: 0 20px 0 24px;
+			    font-size: 20px;
+			    font-family: Arial;
+			    color: #e5004f;
+			    background: url(./img/footer-01.png) 2px 0 no-repeat;
+			}
+			i {
+			    font-style: normal;
+			}
+			b {
+			    padding-left: 24px;
+			    font-size: 14px;
+			    font-family: Arial;
+			    background: url(/rs/img/footer-01.png) 0 -28px no-repeat;
+			}
+		}
+	}
+	.ilinks {
+	    text-align: center;
+	    margin-bottom: 25px;
+	    a {
+		    margin: 0 10px;
+		    color: #757575;
+		}
+		a:hover{color:#e5004f}
+	}
+	.copyright {
+	    text-align: center;
+	    p {
+		    line-height: 22px;
+		    color: #b2b2b2;
+		    a {
+			    margin: 0 6px;
+			    color: #b2b2b2;
+			}
+		}
+	}
+	.all-mark {
+	    padding: 10px 0 20px;
+	    text-align: center;
+	     a {
+		    display: inline-block;
+		    margin: 0 12px;
+		    vertical-align: middle;
+		}
+	    a.m-integrity {
+		    width: 112px;
+		    height: 40px;
+		}
+		a.cnnic {
+		    width: 102px;
+		    height: 40px;
+		}
+		a.commerce {
+		    width: 48px;
+		    height: 48px;
+		}
+	}
+}
