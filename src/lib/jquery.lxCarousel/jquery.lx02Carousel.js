@@ -22,7 +22,7 @@
 
 
 		return this.each(function(idx,ele){
-			console.log(666)
+		
 			var $self = $(ele);
 
 			var len = opt.imgs.length;
@@ -69,6 +69,10 @@
 			var index = opt.index;
 			
 			// $self.parent().css({background:'url('+opt.bgurl[0]+')'})
+			 // var p=$('<p/>');
+			 // p.html(opt.data[0]);
+			
+			
 			// 生成分页
 			if(opt.page){
 				var $page = $('<div/>').addClass('page');
@@ -153,7 +157,8 @@
 
 					$page.children().eq(index).addClass('active').siblings().removeClass();
 				}
-
+				// p.html(opt.data[index]);
+				// $self.parent().next().append(p);
 				// $self.parent().css({background:'url('+opt.bgurl[index]+')'})
 			}
 		});

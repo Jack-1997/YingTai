@@ -511,7 +511,15 @@ a:hover {
 }
 
 #ft .itips span strong {
+  display: block;
+  font-size: 16px;
   font-weight: 400;
+  color: #000;
+}
+
+#ft .itips span strong i {
+  font-style: normal;
+  color: #e5004f;
 }
 
 #ft .itips span b {
@@ -564,7 +572,7 @@ a:hover {
   padding-left: 24px;
   font-size: 14px;
   font-family: Arial;
-  background: url(/rs/img/footer-01.png) 0 -28px no-repeat;
+  background: url(./img/footer-01.png) 0 -28px no-repeat;
 }
 
 #ft .ilinks {

@@ -14,6 +14,7 @@ require.config({
 	shim:{
 		// gdszoom依赖jquery
 		gdszoom:['jquery'],
-		lunbo:['jquery']
+		lunbo:['jquery'],
+		lunbo02:['jquery']
 	}
 });

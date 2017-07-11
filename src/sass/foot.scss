@@ -14,7 +14,16 @@
 		    float: left;
 		    border-right: 1px solid #eee;
 		    font-family: "\5fae\8f6f\96c5\9ed1";
-		    strong{font-weight: 400;}
+		    strong{
+		    	display: block;
+			    font-size: 16px;
+			    font-weight: 400;
+			    color: #000;
+			   i {
+				    font-style: normal;
+				    color: #e5004f;
+				}
+		    }
 		    b {
 			    font-weight: 400;
 			    color: #888;
@@ -39,6 +48,9 @@
 		    padding: 23px 0 0 115px;
 		    background: url(./img/footer-01.png) 52px -203px no-repeat;
 		}
+
+		    
+		
 		.service {
 		    width: 282px;
 		    height: 68px;
@@ -58,7 +70,7 @@
 			    padding-left: 24px;
 			    font-size: 14px;
 			    font-family: Arial;
-			    background: url(/rs/img/footer-01.png) 0 -28px no-repeat;
+			    background: url(./img/footer-01.png) 0 -28px no-repeat;
 			}
 		}
 	}
