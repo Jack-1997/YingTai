@@ -9,7 +9,8 @@ require.config({
 		head:'../html/header.html',
 		lunbo:'../lib/jquery.lxCarousel/jquery.lxCarousel',
 		lunbo02:'../lib/jquery.lxCarousel/jquery.lx02Carousel',
-		foot:'../html/footer.html'
+		foot:'../html/footer.html',
+		common:'common'
 	},
 	shim:{
 		// gdszoom依赖jquery

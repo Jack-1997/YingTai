@@ -1,4 +1,4 @@
-body, ul, li, span, p, b, a, h1, h2, h3, h4, h5, h6, div {
+body, ul, li, span, p, b, a, h1, h2, h3, h4, h5, h6, div, button {
   margin: 0;
   padding: 0;
 }
@@ -12,6 +12,15 @@ img {
   border: 0;
 }
 
+.yt-wrap {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+#hd.yt-secure #hdmain, #hd.yt-secure #hdmain .top-main {
+  height: 76px;
+}
+
 ul, li {
   list-style: none;
 }
@@ -23,6 +32,10 @@ a {
 
 a:hover {
   color: #e5004f;
+}
+
+i, cite, em, var, address, dfn {
+  font-style: normal;
 }
 
 #hd .hdtopbg {
@@ -551,4 +564,461 @@ a:hover {
 #ft .all-mark a.commerce {
   width: 48px;
   height: 48px;
+}
+
+#bd {
+  width: 100%;
+  clear: both;
+  background-color: #ddd;
+  font: normal 12px/1.5 "\5fae\8f6f\96c5\9ed1",Verdana,simsun,Sans-Serif;
+}
+
+.gird {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+.crumbs {
+  margin: 0 auto;
+  background: #f4f4f4;
+  height: 46px;
+  padding: 0 0 0 20px;
+  width: 1170px;
+  line-height: 46px;
+}
+
+.crumbs .span {
+  color: #666;
+  margin: 0 3px 0 0;
+}
+
+.y-pro-goods {
+  width: 1190px;
+  background: #fff;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.y-pro-place {
+  z-index: 11;
+  position: relative;
+  padding: 20px 10px 10px 0;
+  zoom: 1;
+  width: 955px;
+  float: left;
+  background: #fff;
+  clear: both;
+}
+
+.p-info {
+  width: 500px;
+  float: right;
+  font-size: 14px;
+}
+
+.p-tit {
+  font: normal 18px/1.5 "Microsoft Yahei",Verdana,simsun,serif;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.priceInfo {
+  color: #999;
+  font-size: 0;
+  margin-bottom: 30px;
+  cursor: default;
+  width: 500px;
+}
+
+.priceInfo .YTPrice, .priceInfo .ZJPrice {
+  height: 25px;
+  line-height: 25px;
+  vertical-align: middle;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.priceInfo {
+  color: #999;
+  font-size: 0;
+  margin-bottom: 30px;
+  cursor: default;
+  width: 500px;
+}
+
+.priceInfo .marketPrice {
+  line-height: 15px;
+  font-size: 14px;
+  margin: 12px 0;
+}
+
+.priceInfo .marketPrice .marketPriceNum {
+  line-height: 15px;
+  padding: 5px 0;
+}
+
+.priceInfo .marketPrice .marketPriceNum span {
+  text-decoration: line-through;
+  margin-right: 2px;
+}
+
+.priceInfo .YTPrice strong {
+  color: #e5004f;
+  font-size: 24px;
+  vertical-align: baseline;
+  display: inline-block;
+}
+
+.yt-price .yt-num em, .qd-num em {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.p-benefit {
+  width: 495px;
+  background: #eff0f4;
+  padding: 5px 0 5px 4px;
+  font-family: "Microsoft Yahei",Verdana,simsun,serif;
+  color: #999;
+  font-size: 0;
+  margin-bottom: 10px;
+}
+
+.p-benefit div {
+  padding: 2px 12px 2px 0;
+  font-size: 12px;
+  color: #e5004f;
+}
+
+.p-benefit span {
+  height: 20px;
+  line-height: 20px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 6px;
+  width: auto;
+  background: url(img/icon.png) no-repeat 100% -353px;
+  vertical-align: top;
+}
+
+.p-benefit span em {
+  width: 5px;
+  height: 20px;
+  line-height: 20px;
+  display: inline-block;
+  font-size: 0;
+}
+
+.p-benefit span strong {
+  padding: 0 10px;
+  line-height: 20px;
+  display: inline-block;
+  height: 20px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: normal;
+  float: left;
+  margin: 0;
+}
+
+.p-benefit span.yellowLabel {
+  background: url(./img/icon.png) no-repeat 100% -353px;
+}
+
+.p-benefit .yellowLabel em {
+  background: url(./img/icon.png) no-repeat -98px -195px;
+}
+
+.productInfo {
+  width: 500px;
+  overflow: hidden;
+}
+
+.productInfo .productInfoKey {
+  width: 500px;
+}
+
+.productInfo .productInfoKey .J_ShopCartSkin {
+  padding: 10px 0;
+}
+
+.productInfo .productInfoKey .J_ShopCartSkin .J_NoticeInfo {
+  display: none;
+}
+
+.productInfo .productSKU {
+  width: 475px;
+  position: relative;
+}
+
+.productInfo .productSKU dt {
+  float: left;
+  color: #999;
+  line-height: 20px;
+  width: 100px;
+}
+
+.productInfo .productSKU dd {
+  float: left;
+  overflow: hidden;
+  width: 370px;
+}
+
+.productInfo .productSKU .item {
+  position: relative;
+  margin: 0 5px 5px 0;
+  display: inline-block;
+}
+
+.productInfo .productSKU .item b {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  overflow: hidden;
+  background: url(./img/icon.png) no-repeat 0 -240px;
+}
+
+.productInfo .productSKU .item a {
+  border: 2px solid #e5004f;
+  padding: 4px;
+  display: inline-block;
+  white-space: nowrap;
+  height: 30px;
+  line-height: 30px;
+  background: #fff;
+  cursor: pointer;
+  color: #000;
+  width: auto;
+}
+
+.productInfo .productSKU dl {
+  overflow: hidden;
+  width: 475px;
+  float: left;
+  margin-top: 5px;
+}
+
+.productInfo .selSize {
+  line-height: 25px;
+}
+
+.productInfo .productSKU dl dt {
+  float: left;
+  color: #999;
+  line-height: 20px;
+  width: 100px;
+}
+
+.p-buy {
+  clear: both;
+  height: 40px;
+  padding-top: 10px;
+}
+
+#setCount {
+  font-size: 0;
+  float: left;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  height: 38px;
+  line-height: 40px;
+}
+
+.fl {
+  float: left;
+}
+
+#buyNum {
+  outline: none;
+  border: 0px solid #e9e9e9;
+  border-right-width: 1px;
+  width: 49px;
+  height: 38px;
+  line-height: 38px;
+  background-color: #fff;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 22px;
+  color: #000;
+  vertical-align: bottom;
+}
+
+.p-num input {
+  float: left;
+  font-size: 14px;
+  border: none;
+  width: 32px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  color: #000;
+  vertical-align: top;
+  display: inline-block;
+}
+
+#setCount {
+  font-size: 0;
+  float: left;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  height: 38px;
+  line-height: 40px;
+}
+
+#addCart {
+  float: left;
+}
+
+.p-buy button {
+  cursor: pointer;
+  width: 150px;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  height: 40px;
+  float: left;
+  text-indent: -999px;
+  overflow: hidden;
+  background: #e5004f url(img/button_v2.png) no-repeat;
+}
+
+.p-buy .buyit {
+  background: #e5004f url(img/button_v2.png) 0 -560px no-repeat;
+}
+
+.p-buy .buyit:hover {
+  background: #e5004f url(img/button_v2.png) 0 -600px no-repeat;
+}
+
+.p-buy .buynow {
+  background-position: 0 -80px;
+}
+
+.p-buy .incart {
+  background-position: 0 0;
+}
+
+.Y_picBox {
+  float: left;
+  width: 435px;
+}
+
+.Y_picBox .pic-show {
+  height: 400px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.Y_picBox .pic-show img {
+  width: 300px;
+  height: 400px;
+}
+
+.gds-zoom {
+  position: relative;
+  overflow: hidden;
+}
+
+.gds-zoom img {
+  display: block;
+}
+
+.gds-zoom .minzoom {
+  display: none;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #fff;
+  background-color: #ff0;
+  background-color: rgba(0, 0, 0, 0.3);
+  filter: alpha(Opacity=30);
+}
+
+.gds-bigzoom {
+  display: none;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border: 1px solid red;
+  top: 0;
+}
+
+.gds-bigzoom img {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.tc {
+  position: fixed;
+  left: 50%;
+  right: 50%;
+  top: 200px;
+  background-color: #eee;
+  z-index: 9999;
+  width: 400px;
+  height: 200px;
+}
+
+.tc .close {
+  width: 12px;
+  height: 12px;
+  display: block;
+  position: absolute;
+  background-image: url(img/p-type-20120611.png);
+  right: 11px;
+  top: 13px;
+}
+
+.tc .box-tips {
+  height: 37px;
+  text-indent: -999em;
+  background: url(./img/box-tit.png) no-repeat;
+  background-position: 0 -76px;
+}
+
+.tc .box-content {
+  padding-left: 94px;
+  background: url(img/box-tit.png) no-repeat -420px 25px;
+  padding: 20px 40px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.tc .box-cart-strong {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 15px;
+}
+
+.tc .box-cart-btn {
+  height: 37px;
+}
+
+.tc .box-cart-btn a {
+  display: block;
+  text-indent: -999em;
+  outline: none;
+  float: left;
+}
+
+.tc .box-cart-pay {
+  width: 118px;
+  height: 37px;
+  background: url(img/box-tit.png) no-repeat;
+  background-position: 0 -114px;
+  margin-right: 10px;
+}
+
+.tc .box-cart-clo {
+  width: 92px;
+  height: 25px;
+  background: url(img/box-tit.png) no-repeat;
+  background-position: -125px -121px;
+  position: relative;
+  top: 7px;
 }

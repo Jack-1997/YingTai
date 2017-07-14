@@ -1,4 +1,4 @@
-body, ul, li, span, p, b, a, h1, h2, h3, h4, h5, h6, div {
+body, ul, li, span, p, b, a, h1, h2, h3, h4, h5, h6, div, button {
   margin: 0;
   padding: 0;
 }
@@ -12,6 +12,15 @@ img {
   border: 0;
 }
 
+.yt-wrap {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+#hd.yt-secure #hdmain, #hd.yt-secure #hdmain .top-main {
+  height: 76px;
+}
+
 ul, li {
   list-style: none;
 }
@@ -23,6 +32,10 @@ a {
 
 a:hover {
   color: #e5004f;
+}
+
+i, cite, em, var, address, dfn {
+  font-style: normal;
 }
 
 #hd .hdtopbg {

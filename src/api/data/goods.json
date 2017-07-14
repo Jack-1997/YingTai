@@ -3,6 +3,7 @@
 		"id":1,
 		"title":"MICHAEL KORS",
 		"imgurl":"./img/18437.jpg",
+		"bigimgurl":"./img/492331.jpg",
 		"descript":"【自营】MMK Michael Kors迈克·科尔斯棉氨材",
 		"price":"￥599",
 		"oldprice":"￥1100"
@@ -11,6 +12,7 @@
 		"id":2,
 		"title":"SEE BY CHLOE",
 		"imgurl":"./img/18871.jpg",
+		"bigimgurl":"./img/492331.jpg",
 		"descript":"【自营】SEE BY CHLOE多色棉氨材",
 		"price":"￥899",
 		"oldprice":"￥2000"
@@ -19,6 +21,7 @@
 		"id":3,
 		"title":"SUNCOO",
 		"imgurl":"./img/24835.jpg",
+		"bigimgurl":"./img/492331.jpg",
 		"descript":"【自营】SUNCOO白/黄色粘纤材质印花女士",
 		"price":"￥419",
 		"oldprice":"￥1100"
@@ -27,6 +30,7 @@
 		"id":4,
 		"title":"MAX MARA",
 		"imgurl":"./img/25990.jpg",
+		"bigimgurl":"./img/492331.jpg",
 		"descript":"【自营】MAX MARA STUIO米色纯棉百褶边",
 		"price":"￥799",
 		"oldprice":"￥2600"
@@ -35,6 +39,7 @@
 		"id":5,
 		"title":"MICHAEL KORS",
 		"imgurl":"./img/30719.jpg",
+		"bigimgurl":"./img/492331.jpg",
 		"descript":"【自营】MAX MARA SPORTMAX花色聚酯纤维",
 		"price":"￥749",
 		"oldprice":"￥2400"
@@ -43,6 +48,7 @@
 		"id":6,
 		"title":"MAX MARA",
 		"imgurl":"./img/34447.jpg",
+		"bigimgurl":"./img/492331.jpg",
 		"descript":"【自营】MAX MARA STUDIO金色混合材质",
 		"price":"￥1399",
 		"oldprice":"￥4400"
@@ -51,6 +57,7 @@
 		"id":7,
 		"title":"SUNCOO",
 		"imgurl":"./img/42794.jpg",
+		"bigimgurl":"./img/492331.jpg",
 		"descript":"【自营】SUNCOO蓝/白色聚酯纤维材质",
 		"price":"￥419",
 		"oldprice":"￥1200"
@@ -59,6 +66,7 @@
 		"id":8,
 		"title":"MARELLA",
 		"imgurl":"./img/44088.jpg",
+		"bigimgurl":"./img/492331.jpg",
 		"descript":"【自营】MARELLA黑色聚酯纤维材质时尚",
 		"price":"￥1049",
 		"oldprice":"￥3600"
@@ -67,6 +75,7 @@
 		"id":9,
 		"title":"MARELLA",
 		"imgurl":"./img/49233.jpg",
+		"bigimgurl":"./img/492331.jpg",
 		"descript":"【自营】Marella 橘粉色混合材质蕾丝褶皱",
 		"price":"￥1399",
 		"oldprice":"￥4600"
@@ -75,6 +84,7 @@
 		"id":10,
 		"title":"MAX MARA",
 		"imgurl":"./img/63605.jpg",
+		"bigimgurl":"./img/492331.jpg",
 		"descript":"【自营】MAXMARA STUDIO米白色桑蚕丝材",
 		"price":"￥2099",
 		"oldprice":"￥6800"

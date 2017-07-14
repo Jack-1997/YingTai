@@ -51,7 +51,7 @@
 			});
 
 			// 把大图写入页面
-			$big.appendTo('body');
+			$big.appendTo($('.Y_picBox'));
 
 			//大图与小图的比例
 			var ratio;
